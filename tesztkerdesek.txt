@@ -1,6 +1,6 @@
-Név:
-Szak:
-Neptun azonosító:
+Név: Misák Ottó
+Szak: Mérnök informatika
+Neptun azonosító: G5OLVK
 
 Kérdés 1:
 Melyik szerepel az Agile Manifestoban az alábbiak közül?
@@ -11,6 +11,8 @@ C. Együttműködés az ügyféllel szerződés tárgyalása helyett
 D. Egyértelműen meghatározott projektszabályok a változások helyett
 
 Válasz:
+C a helyes válasz, mert:
+Az ügyféllel való együttműködés fontosabb, mint a szerződéses tárgyalások
 
 Kérdés 2:
 Melyik elem NEM része a Kanban táblának?
@@ -21,26 +23,30 @@ C. WIP limitek
 D. Ütemterv
 
 Válasz:
+Az ütemterv NEM része. A Kanban tábla a vizuális eszköze a Kanban rendszernek, amely segít a munkafolyamat vizualizálásában és a feladatok nyomon követésében.
 
 Kérdés 3:
 Melyik az alábbiak közül NEM egy Agile módszertan?
 
-A. Lean
-B. Scrum
+A. Lean ✔
+B. Scrum ✔
 C. Waterfall
-D. Kanban
+D. Kanban ✔
 
-Válasz:
+Válasz: a Waterfall nem Agile módszertan.
 
 Kérdés 4:
 Milyen eszközökkel jelenítheti meg a Kanban módszer a munkafolyamatokat?
 
 A. Gantt táblázatokkal
 B. Word dokumentumokkal
-C. Kanban táblával
+C. Kanban táblával ✔
 D. PowerPoint prezentációkkal
 
-Válasz:
+Válasz: a helyes válasz a C. azaz Kanban táblával
+A Kanban tábla egy vizuális eszköz, amelyen az oszlopok és a feladat kártyák segítségével ábrázolják a munkafolyamatot.
+A Gantt a projektmenedzsmentben gyakran használt eszközök, de nem specifikusak a Kanban módszerhez. A Gantt táblázatok kronológiai áttekintést adnak a feladatok időzítéséről és az egymáshoz való kapcsolódásról.
+A Word dokumentumok és a PowerPoint prezentációk inkább dokumentáció és prezentáció készítésére szolgálnak, és kevésbé alkalmasak a dinamikus és vizuális munkafolyamatok ábrázolására.
 
 Kérdés 5:
 Mit jelent a 'major' verziószám a szoftver verziószámozásában?
@@ -51,6 +57,8 @@ C. A jelentős funkcionális változásokat vagy frissítéseket
 D. Az alfa és béta tesztelési fázisokat
 
 Válasz:
+a helyes válasz a C. A jelentős funkcionális változásokat vagy frissítéseket
+Az alkalmazás mély átalakítását, de új funkciók nélkül, a fejlesztők "nagynak" (major) tekintik.
 
 Kérdés 6:
 Mire utal a "User Story" kifejezés az Agile keretrendszerekben?
@@ -61,6 +69,9 @@ C. Egy felhasználói igény leírására
 D. Egy hibajavításra
 
 Válasz:
+ C. Egy felhasználói igény leírására
+A User Story-k segítenek az ügyféligények és követelmények hatékony kommunikációjában a fejlesztői csapat és az ügyfél között. A fejlesztők az User Story-k alapján tervezik és végzik a fejlesztést, és az eredményeket rendszeresen visszacsatolják az ügyfél felé.
+
 
 Kérdés 7:
 Melyik git parancs szolgál egy új fejlesztési ág létrehozására?
@@ -71,16 +82,24 @@ C. push
 D. branch
 
 Válasz:
+A helyes válasz a D. branch
+pl.: git branch <branch-name>
+
 
 Kérdés 8:
 Melyik fejlesztői környezetet használják leggyakrabban a fejlesztők a kód írása és tesztelése során?
 
-A. Éles környezet (Production)
-B. Integrációs tesztelési környezet (Integration Testing)
+A. Éles környezet (Production)  ez termelési környezet, azaz az alkalmazás valós üzemben működik
+B. Integrációs tesztelési környezet (Integration Testing) a fejlesztők az egyes komponenseket vagy modulokat integrálják és tesztelik együttműködésüket
 C. Felhasználói elfogadási tesztelési környezet (User Acceptance Testing, UAT)
+ felhasználók vagy ügyfelek tesztelik és fogadják el a szoftvert vagy alkalmazást, mielőtt azt éles környezetben bevezetnék.
 D. Fejlesztési környezet (Development)
+A fejlesztési környezet az a környezet, amelyben a fejlesztők a kódot írják, tesztelik és fejlesztik.
 
 Válasz:
+A helyes válasz a D. Fejlesztési környezet (Development).
+A fejlesztési környezet az a környezet, amelyben a fejlesztők a kódot írják, tesztelik és fejlesztik.
+
 
 Kérdés 9:
 Mi a célja a git clone parancsnak?
@@ -91,6 +110,10 @@ C. A módosítások összefésülése a git repository-ban
 D. A git repository törlése
 
 Válasz:
+A hleyes válasz: A. Egy meglévő git repository másolatának létrehozása a helyi rendszeren
+Miután a "git clone" parancsot használtuk, a helyi gépen már lehetőségünk van a repositoryon dolgozni, változtatásokat végrehajtani, új commit-okat létrehozni és a verziókezelő funkciókat használni.
+git clone <repository-url>
+
 
 Kérdés 10:
 Melyik az alábbiak közül egy bevett clean code gyakorlat?
@@ -101,3 +124,5 @@ C. A kód duplikálása, hogy biztosítsa a függetlenséget az egyes modulok k�
 D. A metódusok és függvények minél nagyobbá tétele a lehető legtöbb logika beépítése érdekében
 
 Válasz:
+A helyes válasz: B. A változók, metódusok és osztályok beszédes neveinek használata, amelyek tükrözik a funkciójukat és a szerepüket
+A clean code gyakorlata szerint a kód olvashatóságának javítása érdekében fontos, hogy a változók, metódusok és osztályok nevei pontosan és beszédesen tükrözzék a funkciójukat és szerepüket.
