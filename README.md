@@ -1,44 +1,48 @@
-# Ottó Misák
+# Ottó Misák · Misak Systems
 
-Software engineer in Hungary. I build AI automation, agent systems and developer
-tooling that do real work on their own, and I start from the problem, not the tool.
+Software engineer in Hungary. I build automation, agent systems, developer tooling and
+physical prototypes that do real work, and I start from the problem, not the tool.
+
+**Website:** [misaksystems.com](https://misaksystems.com) · **Services:** [misaksystems.com/services](https://misaksystems.com/services)
 
 ## What I work on
 
-- **AI automation and agent systems.** A self-hosted multi-agent setup in daily
-  use: agents sharing a message queue, memory, a task board, a scheduler and
-  background workers, built on the open-source
-  [Marveen](https://github.com/Szotasz/marveen) framework.
-- **Deadline-driven code repair.** [API Sunset Autopilot](https://otisz.hu/api-sunset)
-  finds the deprecated API versions, SDK pins and retired AI model IDs a codebase
-  actually uses, and matches each hit to the vendor's official shutdown date.
-  The rules are public in [api-sunset-rules](https://github.com/otisz22/api-sunset-rules).
+- **Automation and agent systems.** A self-hosted multi-agent setup in daily use:
+  agents with shared memory, a task board, a scheduler, approvals and background
+  workers, plus a phone control app behind Cloudflare Access.
+- **Deadline-driven code repair (API Sunset).** A scanner that finds the deprecated API
+  versions, SDK pins and retired AI model IDs a codebase actually uses and matches each
+  hit to the vendor's official shutdown date. The rules are public in
+  [api-sunset-rules](https://github.com/otisz22/api-sunset-rules).
+- **Compliance tooling.** Readiness checks for EU rules that hit small firms (CRA, AI Act
+  transparency, EUDAMED UDI, ICS2).
+- **Physical prototypes.** Print-in-place mechanisms for 3D printing and laser-cut designs,
+  with clearance, overhang and motion checks before anything is printed.
 
-## If you got an issue from me
+## Open-source impact
 
-It names the rule it matched, the official vendor source and date, and what was
-and was not checked. If the date or the finding is wrong, reply on the issue and
-I will correct the rule.
+Findings reported to public projects: **27 issues** so far, each tied to an official vendor
+source and date. Fixed by the maintainers, for example:
 
-## Selected work
-
-| Project | What it is | Status |
+| Project | Issue | Outcome |
 |---|---|---|
-| [api-sunset-rules](https://github.com/otisz22/api-sunset-rules) | Deprecation rules tied to official vendor sources | Public |
-| API Sunset Autopilot | Rule-based scanner for deprecated APIs and model IDs | Early access |
-| AI receptionist platform | Multi-tenant, white-label AI receptionist and booking system | Private |
-| MISAK MUSIC FORGE | Offline music-editing desktop app for macOS with a signing and notarization pipeline | Internal |
-| Tender monitor | Daily grant and public-tender digest for small businesses from EU sources | MVP |
+| [apache/beam](https://github.com/apache/beam/issues/40401) | Self-hosted runner image below GitHub's new minimum runner version | Fixed |
+| [stacksjs/stacks](https://github.com/stacksjs/stacks/issues/2856) | FCM topic subscription on the retired Instance ID API | Fixed |
+| [jonwiggins/optio](https://github.com/jonwiggins/optio/issues/638) | Apple private relay domain missing from email checks | Fixed |
+| [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector/issues/648) | Deprecated API usage | Fixed |
 
-Before all this: desktop process automation since 2006, and IT supervision of an
-ATM network.
+### If you got an issue from me
+
+It names the rule it matched, the official vendor source and date, and what was and was not
+checked. If the date or the finding is wrong, reply on the issue and I will correct the rule.
 
 ## Stack
 
-Python, TypeScript, JavaScript, SQLite, PostgreSQL, LLM agents, GitHub Actions.
+Python · TypeScript · Node.js · SQLite · PostgreSQL · GitHub Actions · Cloudflare (Workers,
+Tunnel, Access) · LLM agents · Blender / manifold3d · Bambu and Snapmaker slicing · xTool
 
-## Links
+Before all this: desktop process automation since 2006, and IT supervision of an ATM network.
 
-- Website: [otisz.hu](https://otisz.hu)
-- API Sunset: [otisz.hu/api-sunset](https://otisz.hu/api-sunset)
-- Contact: via [otisz.hu](https://otisz.hu)
+## Contact
+
+Via [misaksystems.com/contact](https://misaksystems.com/contact)
