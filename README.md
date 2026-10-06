@@ -26,10 +26,10 @@ source and date. Fixed by the maintainers, for example:
 
 | Project | Issue | Outcome |
 |---|---|---|
-| [apache/beam](https://github.com/apache/beam/issues/40401) | Self-hosted runner image below GitHub's new minimum runner version | Fixed |
-| [stacksjs/stacks](https://github.com/stacksjs/stacks/issues/2856) | FCM topic subscription on the retired Instance ID API | Fixed |
-| [jonwiggins/optio](https://github.com/jonwiggins/optio/issues/638) | Apple private relay domain missing from email checks | Fixed |
-| [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector/issues/648) | Deprecated API usage | Fixed |
+| [apache/beam](https://github.com/apache/beam/issues/40401) | Self-hosted runner image (2.296.2) below GitHub's new minimum runner version (2.329.0) | Fixed |
+| [stacksjs/stacks](https://github.com/stacksjs/stacks/issues/2856) | FCM topic subscription on the Firebase Instance ID API, shutting down 2027-09-29 | Fixed |
+| [jonwiggins/optio](https://github.com/jonwiggins/optio/issues/638) | New Sign in with Apple relay domain (private.icloud.com) missing from the auto-join block list | Fixed |
+| [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector/issues/648) | Google Ads API v22 sunset on 2026-10-07: base URL and campaign date fields | Fixed |
 
 ### If you got an issue from me
 
